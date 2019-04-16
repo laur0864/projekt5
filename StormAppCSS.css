@@ -1,0 +1,13 @@
+.background {
+    position: absolute;
+    height: 50%;
+    width: 50%;
+}
+
+.station {
+    position: relative;
+    height: 50%;
+    width: 50%;
+    top: 290px;
+    left: 400px;
+}
