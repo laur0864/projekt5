@@ -19,3 +19,11 @@
     top: 350px;
     left: 320px;
 }
+
+.shop {
+    position: relative;
+    height: 50%;
+    width: 50%;
+    top: 280px;
+    left: 520px;
+}
