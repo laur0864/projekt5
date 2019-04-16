@@ -35,3 +35,11 @@
     top: 250px;
     left: 750px;
 }
+
+.sun {
+    position: relative;
+    height: 50%;
+    width: 50%;
+    top: -380px;
+    left: 600px;
+}
