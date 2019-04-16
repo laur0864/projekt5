@@ -1,2 +1,2 @@
-let OOF = new Audio ();
-OOF.src = "Sound/MC_OOF.mp3";
+let CloudPee = new Audio ();
+CloudPee.src = "Sound/Cloud_pee.mp3";
