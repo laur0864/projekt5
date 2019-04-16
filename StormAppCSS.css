@@ -27,3 +27,11 @@
     top: 280px;
     left: 520px;
 }
+
+.ship {
+    position: relative;
+    height: 50%;
+    width: 50%;
+    top: 250px;
+    left: 750px;
+}
