@@ -43,3 +43,11 @@
     top: -380px;
     left: 600px;
 }
+
+.cloud {
+    position: relative;
+    height: 50%;
+    width: 50%;
+    top: -620px;
+    left: 30px;
+}
