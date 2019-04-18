@@ -36,6 +36,7 @@
     left: 750px;
 }
 
+
 .sun {
     position: relative;
     height: 50%;
@@ -44,10 +45,19 @@
     left: 600px;
 }
 
+
 .cloud {
     position: relative;
     height: 50%;
     width: 50%;
     top: -280px;
     left: 30px;
+}
+
+.wind {
+    position: relative;
+    height: 50%;
+    width: 50%;
+    top: -660px;
+    left: 600px;
 }
