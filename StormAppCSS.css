@@ -6,6 +6,7 @@
 
 .station {
     position: relative;
+    cursor:pointer;
     height: 50%;
     width: 50%;
     top: 290px;
@@ -14,14 +15,17 @@
 
 .house {
     position: relative;
+    cursor:pointer;
     height: 50%;
     width: 50%;
     top: 350px;
     left: 320px;
+    
 }
 
 .shop {
     position: relative;
+    cursor:pointer;
     height: 50%;
     width: 50%;
     top: 280px;
@@ -30,6 +34,7 @@
 
 .ship {
     position: relative;
+    cursor:pointer;
     height: 50%;
     width: 50%;
     top: 250px;
@@ -39,6 +44,7 @@
 
 .sun {
     position: relative;
+    cursor:pointer;
     height: 50%;
     width: 50%;
     top: -580px;
@@ -48,6 +54,7 @@
 
 .cloud {
     position: relative;
+    cursor:pointer;
     height: 50%;
     width: 50%;
     top: -280px;
