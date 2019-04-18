@@ -1,0 +1,45 @@
+.background {
+    position: absolute;
+    height: 50%;
+    width: 50%;
+}
+
+.station {
+    position: relative;
+    height: 50%;
+    width: 50%;
+    top: 290px;
+    left: 400px;
+}
+
+.house {
+    position: relative;
+    height: 50%;
+    width: 50%;
+    top: 350px;
+    left: 320px;
+}
+
+.shop {
+    position: relative;
+    height: 50%;
+    width: 50%;
+    top: 280px;
+    left: 520px;
+}
+
+.ship {
+    position: relative;
+    height: 50%;
+    width: 50%;
+    top: 250px;
+    left: 750px;
+}
+
+.sun {
+    position: relative;
+    height: 50%;
+    width: 50%;
+    top: -380px;
+    left: 600px;
+}
