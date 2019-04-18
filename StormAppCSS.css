@@ -40,6 +40,14 @@
     position: relative;
     height: 50%;
     width: 50%;
-    top: -380px;
+    top: -550px;
     left: 600px;
+}
+
+.cloud {
+    position: relative;
+    height: 50%;
+    width: 50%;
+    top: -280px;
+    left: 30px;
 }
