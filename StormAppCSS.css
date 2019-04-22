@@ -1,6 +1,48 @@
+/* Projekt 5 - CSS Stylesheet */
+
 body {
     background-color: #191847;
   }
+
+
+/* Loading page  */
+
+.logo {
+    position: relative;
+    height: 50%;
+    width: 50%;
+    top: 200px;
+    left: 300px;
+    
+}
+
+#loader{
+    width: 0px;
+    height: 0px;
+    background-color: #FEE267;
+    text-align: center;
+    animation-name: loader;
+    animation-delay: 1s;
+    animation-duration: 4s;
+    animation-fill-mode: both;
+  }
+  
+  @keyframes loader{
+    0%{
+     width: 2px;
+     height: 40px;
+     transform: translateX(205px) translateY(220px);
+    }
+  
+    100%{
+     width: 495px;
+     height: 40px;
+     transform: translateX(205px) translateY(220px);
+  
+    }
+  }
+  
+/* Selve øen  */
 
 .background {
     position: absolute;
@@ -13,8 +55,8 @@ body {
     cursor:pointer;
     height: 50%;
     width: 50%;
-    top: 290px;
-    left: 400px;
+    top: 270px;
+    left: 380px;
 }
 
 .house {
@@ -22,8 +64,8 @@ body {
     cursor:pointer;
     height: 50%;
     width: 50%;
-    top: 350px;
-    left: 320px;
+    top: 310px;
+    left: 300px;
     
 }
 
@@ -32,8 +74,8 @@ body {
     cursor:pointer;
     height: 50%;
     width: 50%;
-    top: 280px;
-    left: 520px;
+    top: 200px;
+    left: 500px;
 }
 
 .ship {
@@ -41,7 +83,7 @@ body {
     cursor:pointer;
     height: 50%;
     width: 50%;
-    top: 250px;
+    top: 160px;
     left: 750px;
 }
 
@@ -51,9 +93,28 @@ body {
     cursor:pointer;
     height: 50%;
     width: 50%;
-    top: -580px;
-    left: 600px;
+    top: -680px;
+    left: 580px;
 }
+
+.sun:active {;
+    cursor:pointer;
+    height: 50%;
+    width: 50%;
+    top: -680px;
+    left: 580px;
+    animation-name: happysun;
+    animation-duration:  1s;
+    transform-origin: center center;
+    }
+    
+    @keyframes happysun {
+        0%   { transform: translateY(0px)}
+        25%  { transform: translateY(20px)}
+        50%  { transform: translateY(0px)}
+        75%  { transform: translateY(20px)}
+        100% { transform: translateY(0px)}
+    }
 
 
 .cloud {
@@ -61,14 +122,44 @@ body {
     cursor:pointer;
     height: 50%;
     width: 50%;
-    top: -280px;
+    top: -380px;
     left: 30px;
 }
+
+.cloud:active {
+    position: relative;
+    cursor:pointer;
+    height: 50%;
+    width: 50%;
+    top: -380px;
+    left: 0px;
+    animation-name: angrycloud;
+    animation-duration: 3s;
+    }
+    
+    @keyframes angrycloud {
+    0%   {width: 100px; left:0px;}
+    25%  {width: 130px; left:100px;}
+    50%  {width: 100px; left:0px;}
+    75%  {width: 130px; left:50px;}
+    100% {width: 100px; left:0px;}
+    }
+
 
 .wind {
     position: relative;
     height: 50%;
     width: 50%;
-    top: -660px;
+    top: -715px;
     left: 600px;
+}
+
+.info {
+    position: relative;
+    cursor:pointer;
+    opacity: 0.5;
+    height: 50%;
+    width: 50%;
+    top: -530px;
+    left: 6px;
 }
