@@ -85,6 +85,18 @@ body {
     width: 50%;
     top: 160px;
     left: 750px;
+    animation-name: wavy;
+    animation-duration:  10s;
+    animation-iteration-count: infinite;
+    }
+    
+    @keyframes wavy {
+        0%   { transform: translateY(0px)}
+        25%  { transform: translateY(5px)}
+        50%  { transform: translateY(0px)}
+        75%  { transform: translateY(5px)}
+        100% { transform: translateY(0px)}
+    
 }
 
 
@@ -97,7 +109,7 @@ body {
     left: 580px;
 }
 
-.sun:active {;
+.sun:active {
     cursor:pointer;
     height: 50%;
     width: 50%;
@@ -116,7 +128,6 @@ body {
         100% { transform: translateY(0px)}
     }
 
-
 .cloud {
     position: relative;
     cursor:pointer;
@@ -124,6 +135,17 @@ body {
     width: 50%;
     top: -380px;
     left: 30px;
+    animation-name: cloudy;
+    animation-duration:  8s;
+    animation-iteration-count: infinite;
+    }
+    
+    @keyframes cloudy {
+        0%   { transform: translateY(0px)}
+        25%  { transform: translateY(7px)}
+        50%  { transform: translateY(0px)}
+        75%  { transform: translateY(7px)}
+        100% { transform: translateY(0px)}
 }
 
 .cloud:active {
@@ -162,4 +184,9 @@ body {
     width: 50%;
     top: -530px;
     left: 6px;
+    transition-duration: 4s;
+}
+
+.info:hover {
+    opacity: 1;
 }
