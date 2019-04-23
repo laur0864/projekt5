@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="StormAppCSS.css">
+    <title>Storm starter op...</title>
+
+</head>
+
+ <body>
+ <style>  /*HTML'en kan ikke fange CSS'en ordentligt så Stylesheetet kommer her*/
+ body {
+    background-color: #191847;
+  }
+
+ .logo {
+    position: relative;
+    height: 50%;
+    width: 50%;
+    top: 200px;
+    left: 300px;   
+  }
+    #loader{
+    width: 0px;
+    height: 0px;
+    background-color: #FEE267;
+    text-align: center;
+    animation-name: loader;
+    animation-delay: 1s;
+    animation-duration: 4s;
+    animation-fill-mode: both;
+    }
+  
+    @keyframes loader{
+     0%{
+      width: 2px;
+      height: 40px;
+      transform: translateX(205px) translateY(220px);
+     }
+  
+     100%{
+      width: 495px;
+      height: 40px;
+      transform: translateX(205px) translateY(220px);
+  
+    }
+  }
+  </style>
+
+     <div class="logo">
+            <img src="Grafik/logo.png" alt="Storm Logo" style="height:100px"; width="auto";>
+     </div>
+        
+    <div id="loader">
+     </div>
+
+     <script>
+        var timer = setTimeout(function() {
+            window.location='http://lifeoflaurids.dk/projekt5/landingguide.html'
+        }, 5000);
+     </script>
+ </body>
+</html>
+
+
+
+
+

@@ -1,0 +1,257 @@
+/* Projekt 5 - CSS Stylesheet */
+
+body {
+    background-color: #191847;
+  }
+
+
+/* Loading page  */
+
+.logo {
+    position: relative;
+    height: 50%;
+    width: 50%;
+    top: 200px;
+    left: 300px;
+    
+}
+
+#loader{
+    width: 0px;
+    height: 0px;
+    background-color: #FEE267;
+    text-align: center;
+    animation-name: loader;
+    animation-delay: 1s;
+    animation-duration: 4s;
+    animation-fill-mode: both;
+  }
+  
+  @keyframes loader{
+    0%{
+     width: 2px;
+     height: 40px;
+     transform: translateX(205px) translateY(220px);
+    }
+  
+    100%{
+     width: 495px;
+     height: 40px;
+     transform: translateX(205px) translateY(220px);
+  
+    }
+  }
+
+
+
+/* Startup guide  */
+
+.bigsun {
+    position: relative;
+    cursor:pointer;
+    height: 50%;
+    width: 50%;
+    top: -960px;
+    left: 550px;
+}
+
+.textbubble {
+    position: relative;
+    text-align: center;
+    height: 50%;
+    width: 50%;
+    top: -1205px;
+    left: 120px;
+
+    animation-name: hellobox;
+    animation-duration:  2s;
+    animation-iteration-count: 1;
+    }
+    
+    @keyframes hellobox {
+        0%   { opacity: 0; width: 60%;}
+        100% { opacity: 1; width: 50%;}
+    
+}
+
+.textbubbletext {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-60%, -50%);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+}
+
+input[type=text]{
+    width: 180px;
+    padding: 12px 20px;
+    display: inline-block;
+    border: 1px solid #ccc;
+  }
+
+#yes {
+    transform: translateY(10px);
+}
+
+.info1 {
+    position: relative;
+    cursor:pointer;
+    opacity: 0.5;
+    height: 50%;
+    width: 50%;
+    top: -858px;
+    left: 6px;
+    transition-duration: 4s;
+}
+
+
+/* Selve øen  */
+
+.background {
+    position: absolute;
+    height: 50%;
+    width: 50%;
+}
+
+.station {
+    position: relative;
+    cursor:pointer;
+    height: 50%;
+    width: 50%;
+    top: 270px;
+    left: 380px;
+}
+
+.house {
+    position: relative;
+    cursor:pointer;
+    height: 50%;
+    width: 50%;
+    top: 310px;
+    left: 300px;
+    
+}
+
+.shop {
+    position: relative;
+    cursor:pointer;
+    height: 50%;
+    width: 50%;
+    top: 200px;
+    left: 500px;
+}
+
+.ship {
+    position: relative;
+    cursor:pointer;
+    height: 50%;
+    width: 50%;
+    top: 160px;
+    left: 750px;
+    animation-name: wavy;
+    animation-duration:  10s;
+    animation-iteration-count: infinite;
+    }
+    
+    @keyframes wavy {
+        0%   { transform: translateY(0px)}
+        25%  { transform: translateY(5px)}
+        50%  { transform: translateY(0px)}
+        75%  { transform: translateY(5px)}
+        100% { transform: translateY(0px)}
+    
+}
+
+.sun {
+    position: relative;
+    cursor:pointer;
+    height: 50%;
+    width: 50%;
+    top: -880px;
+    left: 580px;
+}
+
+.sun:active {
+    position: relative;
+    cursor:pointer;
+    height: 50%;
+    width: 50%;
+    top: -880px;
+    left: 580px;
+    animation-name: happysun;
+    animation-duration:  1s;
+    transform-origin: center center;
+    }
+    
+    @keyframes happysun {
+        0%   { transform: translateY(0px)}
+        25%  { transform: translateY(20px)}
+        50%  { transform: translateY(0px)}
+        75%  { transform: translateY(20px)}
+        100% { transform: translateY(0px)}
+    }
+
+.cloud {
+    position: relative;
+    cursor:pointer;
+    height: 50%;
+    width: 50%;
+    top: -380px;
+    left: 30px;
+    animation-name: cloudy;
+    animation-duration:  8s;
+    animation-iteration-count: infinite;
+    }
+    
+    @keyframes cloudy {
+        0%   { transform: translateY(0px)}
+        25%  { transform: translateY(7px)}
+        50%  { transform: translateY(0px)}
+        75%  { transform: translateY(7px)}
+        100% { transform: translateY(0px)}
+}
+
+.cloud:active {
+    position: relative;
+    cursor:pointer;
+    height: 50%;
+    width: 50%;
+    top: -380px;
+    left: 0px;
+    animation-name: angrycloud;
+    animation-duration: 3s;
+    }
+    
+    @keyframes angrycloud {
+    0%   {width: 100px; left:0px;}
+    25%  {width: 130px; left:100px;}
+    50%  {width: 100px; left:0px;}
+    75%  {width: 130px; left:50px;}
+    100% {width: 100px; left:0px;}
+    }
+
+
+.wind {
+    position: relative;
+    height: 50%;
+    width: 50%;
+    top: -360px;
+    left: 600px;
+}
+
+
+.info {
+    position: relative;
+    cursor:pointer;
+    opacity: 0.5;
+    height: 50%;
+    width: 50%;
+    top: -530px;
+    left: 6px;
+    transition-duration: 4s;
+}
+
+.info:hover {
+    opacity: 1;
+}
