@@ -2,6 +2,7 @@
     top: 290px;
     left: 400px;
 
+
 .shop {
     
 position: absolute;
@@ -20,11 +21,8 @@ position: relative;
     
     top: -510px;
     left: 620px;
-
-
-
-    
-    
-    
     
 }
+
+
+body{background-color: #191847;}
