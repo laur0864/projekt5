@@ -41,7 +41,71 @@ body {
   
     }
   }
-  
+
+
+
+/* Startup guide  */
+
+.bigsun {
+    position: relative;
+    cursor:pointer;
+    height: 50%;
+    width: 50%;
+    top: -960px;
+    left: 550px;
+}
+
+.textbubble {
+    position: relative;
+    text-align: center;
+    height: 50%;
+    width: 50%;
+    top: -1205px;
+    left: 120px;
+
+    animation-name: hellobox;
+    animation-duration:  2s;
+    animation-iteration-count: 1;
+    }
+    
+    @keyframes hellobox {
+        0%   { opacity: 0; width: 60%;}
+        100% { opacity: 1; width: 50%;}
+    
+}
+
+.textbubbletext {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-60%, -50%);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+}
+
+input[type=text]{
+    width: 180px;
+    padding: 12px 20px;
+    display: inline-block;
+    border: 1px solid #ccc;
+  }
+
+#yes {
+    transform: translateY(10px);
+}
+
+.info1 {
+    position: relative;
+    cursor:pointer;
+    opacity: 0.5;
+    height: 50%;
+    width: 50%;
+    top: -858px;
+    left: 6px;
+    transition-duration: 4s;
+}
+
+
 /* Selve øen  */
 
 .background {
@@ -99,21 +163,21 @@ body {
     
 }
 
-
 .sun {
     position: relative;
     cursor:pointer;
     height: 50%;
     width: 50%;
-    top: -680px;
+    top: -880px;
     left: 580px;
 }
 
 .sun:active {
+    position: relative;
     cursor:pointer;
     height: 50%;
     width: 50%;
-    top: -680px;
+    top: -880px;
     left: 580px;
     animation-name: happysun;
     animation-duration:  1s;
@@ -172,9 +236,10 @@ body {
     position: relative;
     height: 50%;
     width: 50%;
-    top: -715px;
+    top: -360px;
     left: 600px;
 }
+
 
 .info {
     position: relative;

@@ -7,3 +7,7 @@ SunHappy.src = "Sound/Sun_Happy.mp3";
 window.onload=function(){
     document.getElementById("No").play();
 }
+
+function ani(){
+    document.getElementById('img').className ='classname';
+}
